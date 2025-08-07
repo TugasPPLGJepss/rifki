@@ -13,11 +13,11 @@ nav ul{
 }
 nav a{
 text-decoration: none;
-color: blue;
+color: rgb(255, 255, 255);
 }
 header {
-    background-color: aqua;
-    color: darkblue;
+    background-color: rgb(35, 61, 148);
+    color: rgb(255, 255, 255);
     padding: 2rem;
 }
 nav a:hover{
@@ -29,4 +29,50 @@ nav a:hover{
     align-items: center;
     background-color: rgb(151, 149, 149);
     padding: 2rem;
+    gap: 2rem;
 }
+.hero img{
+    width: 220px;
+    height: 220px;
+    background-color: rgb(143, 3, 3);
+    border-radius: 100%;
+}
+
+         .btn-grad {background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB  51%, #403B4A  100%)}
+         .btn-grad {
+            margin: 100px;
+            padding: 15px 120px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 15px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+.container{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    
+}
+i{
+    
+    display: flex;
+    padding: 10px;
+    
+    
+}
+h2{
+    margin: 0%;
+    justify-content: center;
+}
+
+
