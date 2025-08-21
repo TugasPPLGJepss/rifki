@@ -59,7 +59,7 @@ nav a:hover{
           }
 .container{
     display: flex;
-    margin: 100px;
+    margin: 20px;
     justify-content: center;
     
 }
@@ -74,5 +74,7 @@ h2{
     margin: 0%;
     justify-content: center;
 }
+
+
 
 
